@@ -4,7 +4,7 @@ This is a way how to load a json file in React components.
 
   - clone it on your computer
   - #cd React-json-data-app
-  - run `npm install`.
+  - run `yarn install`.
   
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
