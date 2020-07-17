@@ -1,5 +1,7 @@
 import React from 'react';
 import '../App.css';
+import {Food} from './Food';
+import {PageHeader} from './PageHeader';
 import {FoodData} from './data/FoodData';
 
 export const FoodScript = () => {
@@ -21,34 +23,5 @@ export const FoodScript = () => {
         })}
       </div>
     </>
-  );
-};
-
-const PageHeader = () => {
-  return (
-    <header className="header">
-      <h2>Your delicious chicken</h2>
-    </header>
-  );
-};
-
-const Food = ({category, price, description}) => {
-  if (!category) return <div />;
-  return (
-    <table>
-      <tbody>
-        <tr>
-          <td>
-            <h5>{category}</h5>
-          </td>
-          <td>
-            <h5>{price}</h5>
-          </td>
-          <td>
-            <p>{description}</p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
   );
 };
