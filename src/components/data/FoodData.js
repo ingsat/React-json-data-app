@@ -1,4 +1,4 @@
-export const kfcData = [
+export const FoodData = [
   {
     category: 'CHICKEN PARTS',
     price: '4.50 USD',

@@ -1,6 +1,6 @@
 import React from 'react';
-import {FoodScript} from './components/FoodScript';
 import './App.css';
+import {FoodScript} from './components/FoodScript';
 
 function App() {
   return (
